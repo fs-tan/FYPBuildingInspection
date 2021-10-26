@@ -49,10 +49,14 @@
                     <a class="navbar-brand" runat="server" href="~/">Application name</a>
                 </div>
                 <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
+                    <ul class="nav navbar-nav"  style="float: right">
+                        <li><a runat="server" href="DroneSchedule.aspx">Drone Schedule</a></li>
+                        <li><a runat="server" href="Weather.aspx">Weather</a></li>
+                        <li><a runat="server" href="https://dashboard-yiqi-ews.education.wise-paas.com/d/nHojtuS7k/building-inspection?orgId=1">Dashboard</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li><asp:HyperLink runat="server" NavigateUrl="~/Login.aspx" ID="login" Text="Login"></asp:HyperLink></li>
+                        <li><a ID="hrefLogout" runat="server" href="~/Logout"><img src="../Content/logout.png" style="max-height:20px; max-width:20px;"/></a></li>
                     </ul>
                 </div>
             </div>
