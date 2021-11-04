@@ -11,12 +11,261 @@ body {
     padding-right: 15px;
 }
 
+.Label {
+    padding-left: 50%;
+    padding-top: 0;
+}
+
 /* Set widths on the form inputs since otherwise they're 100% wide */
 input,
 select,
 textarea {
-    max-width: 280px;
+    max-width: 100%;
 }
+/*Aloy*/
+.auto-style1 {
+    width: 11px;
+}
+
+.auto-style2 {
+    height: 30px;
+}
+
+.auto-style3 {
+    width: 11px;
+    height: 30px;
+}
+
+.auto-style4 {
+    height: 23px;
+}
+
+.auto-style5 {
+    font-size: x-large;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.auto-style3 {
+    margin-left: 50px;
+    font-size: xx-large;
+}
+
+.auto-style4 {
+    font-size: medium;
+}
+
+.cat1auto-style1 {
+    height: 120px;
+    text-align: center;
+}
+
+.cat1auto-style2 {
+    height: 40px;
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+/*CXC*/
+.flower {
+    clear: both;
+    padding-left: 25%;
+}
+
+.fleft, .fmid, .fright {
+    width: 18%;
+    float: left;
+}
+
+.fmid {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding-bottom: 50px;
+}
+
+footer {
+    line-height: 1.5em;
+    position: relative;
+    width: 100%;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+    footer ul, footer ol {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
+    footer li {
+        list-style: none;
+        line-height: 1.5em;
+        margin: 0;
+        padding: 0;
+        vertical-align: baseline;
+        border: 0;
+        text-align: center;
+    }
+
+/*CCY*/
+.display {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#backGround {
+    height: 500px;
+    width: auto;
+    background-image: url('../Content/picture.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.ccy {
+    background-image: url('../Content/picture.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+}
+
+.register,
+.login {
+    height: auto;
+    max-width: 400px;
+    padding: 40px 15px;
+    text-align: center;
+    width: 100%;
+}
+
+    .register .fas,
+    .login .fas {
+        color: #4d61fc;
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .register strong,
+    .login strong {
+        color: #3b3663;
+        display: block;
+        font-size: 28px;
+    }
+
+.register,
+.login {
+    background: #ffffff;
+    position: fixed;
+    left: 40%;
+    top: 5%;
+}
+
+    .register .form,
+    .login .form {
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+
+.form-row {
+    position: relative;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.register .form .form-row .fas,
+.login .form .form-row .fas {
+    font-size: 16px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    color: #696687;
+    opacity: .3;
+}
+
+.register .form .form-label,
+.login .form .form-label {
+    color: #696687;
+    font-size: 17px;
+    opacity: .7;
+}
+
+.register .form-password,
+.register .form-text,
+.login .form-password,
+.login .form-text {
+    color: #696687;
+    font-size: 18px;
+    border: 0;
+    height: 40px;
+    margin-bottom: 5px;
+    padding: 0 40px 0 0px;
+    width: 100%;
+    background: white no-repeat;
+    transition: 100ms all linear 0s;
+    background-image: linear-gradient(to bottom, rgba(77, 97, 252, 0.63) 0%, #4d61fc 90%), linear-gradient(to bottom, #e1e1e1, #e1e1e1);
+    background-size: 0 2px, 100% 1px;
+    background-position: 50% 100%, 50% 100%;
+}
+
+.register {
+    margin: auto;
+}
+
+.login {
+    margin: auto;
+    margin-top: 100px;
+}
+
 
 
 /* Responsive: Portrait tablets and up */

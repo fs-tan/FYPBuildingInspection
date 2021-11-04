@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Database1" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Coordinate" Member="Coordinates">
+    <Type Name="Coordinate">
+      <Column Name="coordinatesID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="latitude" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="longitude" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Coordinate_FlightInfo" Member="FlightInfos" ThisKey="coordinatesID" OtherKey="coordinatesID" Type="FlightInfo" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Weather" Member="Weathers">
+    <Type Name="Weather">
+      <Column Name="weatherID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="weather" Member="weather1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Weather_FlightSchedule" Member="FlightSchedules" ThisKey="weatherID" OtherKey="weatherID" Type="FlightSchedule" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DroneInfo" Member="DroneInfos">
+    <Type Name="DroneInfo">
+      <Column Name="droneID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="latitude" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="longitude" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="battery" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="DroneInfo_FlightSchedule" Member="FlightSchedules" ThisKey="droneID" OtherKey="droneID" Type="FlightSchedule" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FlightInfo" Member="FlightInfos">
+    <Type Name="FlightInfo">
+      <Column Name="flightInfoID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="coordinatesID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="FlightInfo_FlightInfo" Member="FlightInfo2" ThisKey="flightInfoID" OtherKey="flightInfoID" Type="FlightInfo" Cardinality="One" />
+      <Association Name="FlightInfo_FlightSchedule" Member="FlightSchedules" ThisKey="flightInfoID" OtherKey="flightInfoID" Type="FlightSchedule" />
+      <Association Name="Coordinate_FlightInfo" Member="Coordinate" ThisKey="coordinatesID" OtherKey="coordinatesID" Type="Coordinate" IsForeignKey="true" />
+      <Association Name="FlightInfo_FlightInfo" Member="FlightInfo1" ThisKey="flightInfoID" OtherKey="flightInfoID" Type="FlightInfo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FlightSchedule" Member="FlightSchedules">
+    <Type Name="FlightSchedule">
+      <Column Name="scheduleID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="scheduleName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="status" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="flightInfoID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="resultID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="userID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="weatherID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="droneID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="DroneInfo_FlightSchedule" Member="DroneInfo" ThisKey="droneID" OtherKey="droneID" Type="DroneInfo" IsForeignKey="true" />
+      <Association Name="FlightInfo_FlightSchedule" Member="FlightInfo" ThisKey="flightInfoID" OtherKey="flightInfoID" Type="FlightInfo" IsForeignKey="true" />
+      <Association Name="Weather_FlightSchedule" Member="Weather" ThisKey="weatherID" OtherKey="weatherID" Type="Weather" IsForeignKey="true" />
+      <Association Name="InspectionResult_FlightSchedule" Member="InspectionResult" ThisKey="resultID" OtherKey="resultID" Type="InspectionResult" IsForeignKey="true" />
+      <Association Name="User_FlightSchedule" Member="User" ThisKey="userID" OtherKey="userID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.InspectionResult" Member="InspectionResults">
+    <Type Name="InspectionResult">
+      <Column Name="resultID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="resultStatus" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="reportID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="InspectionResult_FlightSchedule" Member="FlightSchedules" ThisKey="resultID" OtherKey="resultID" Type="FlightSchedule" />
+      <Association Name="Report_InspectionResult" Member="Report" ThisKey="reportID" OtherKey="reportID" Type="Report" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Report" Member="Reports">
+    <Type Name="Report">
+      <Column Name="reportID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="reportName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Report_InspectionResult" Member="InspectionResults" ThisKey="reportID" OtherKey="reportID" Type="InspectionResult" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[User]" Member="Users">
+    <Type Name="User">
+      <Column Name="userID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="userName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="userPassword" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="userImage" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="User_FlightSchedule" Member="FlightSchedules" ThisKey="userID" OtherKey="userID" Type="FlightSchedule" />
+    </Type>
+  </Table>
+</Database>

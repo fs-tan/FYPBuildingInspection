@@ -1,0 +1,1150 @@
+2021-09-23 14:10:45.3611 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:10:49.6954 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:10:55.0586 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:11:00.2523 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:11:05.4403 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:11:10.6281 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:11:15.8976 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:11:21.0752 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:11:26.2809 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:11:31.4629 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:11:36.6985 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:11:41.8782 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:11:47.0826 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:11:52.2804 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:11:57.5035 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:12:02.6961 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:12:07.8980 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:12:13.0881 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:12:18.2973 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:12:23.4973 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:12:28.6694 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:12:33.8672 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:12:39.0969 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:12:44.2747 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:12:49.4571 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:12:54.6367 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:12:59.8206 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:13:05.0796 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:17:21.2190 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:17:25.5742 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:17:30.7943 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:17:35.9967 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:17:40.1752 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:17:41.1855 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:17:44.3495 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:17:46.3682 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:17:49.5301 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:17:51.5731 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:17:54.7147 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:17:56.7498 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:17:59.9062 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:18:01.9972 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:18:05.0945 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:18:07.2948 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:18:10.3769 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:18:12.4983 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:18:15.5427 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:18:17.6771 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:18:20.7933 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:18:22.9935 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:18:25.9927 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:18:28.2931 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:18:31.2936 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:18:33.5961 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:18:36.5931 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:56:52.9947 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:56:57.2790 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:57:02.4938 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:57:07.6610 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:57:12.8485 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:57:18.0022 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:57:23.1972 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:57:28.3918 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:57:33.5906 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:57:38.7870 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:57:43.9556 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:57:49.1362 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:57:54.3002 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:57:59.5787 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:58:04.7680 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:58:09.9579 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:58:15.1603 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:58:20.3475 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:58:25.6805 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:58:30.8809 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:58:36.0788 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:58:41.2802 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:58:46.4857 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:58:51.7516 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:58:56.9460 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:59:02.1457 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:59:17.6834 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:59:21.8984 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:59:27.0786 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:59:32.2625 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:59:36.3734 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:59:37.4472 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:59:40.5769 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:59:42.6357 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:59:45.7746 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:59:47.8465 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:59:50.9715 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:59:53.0336 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:59:56.1764 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 14:59:58.2156 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:01.3845 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:03.5755 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:06.5796 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:08.7763 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:11.8757 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:13.9775 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:17.0803 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:19.1527 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:22.2767 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:24.3271 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:27.4454 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:29.5810 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:32.8055 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:34.8033 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:38.0057 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:40.0772 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:43.3759 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:45.2770 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:48.6776 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:50.4599 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:53.8635 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:55.6786 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:00:59.0771 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:00.8776 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:04.4792 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:06.0806 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:09.6680 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:11.2773 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:14.8510 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:16.4527 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:20.0453 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:21.6507 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:25.2776 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:26.8807 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:30.4762 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:32.0779 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:35.6769 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:37.2787 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:40.8790 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:42.4858 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:46.0772 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:47.6766 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:51.2650 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:52.8521 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:56.4713 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:01:58.0475 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:01.7518 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:03.3528 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:06.9882 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:08.5792 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:12.2798 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:13.7684 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:17.4999 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:18.9498 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:22.7765 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:24.1333 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:27.9775 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:29.3763 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:33.2776 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:34.5767 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:38.4832 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:39.7689 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:43.7007 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:44.9733 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:48.8734 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:50.1366 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:54.0575 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:55.3109 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:02:59.2751 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:00.4796 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:04.4746 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:05.6547 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:09.6753 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:10.8316 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:14.8606 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:16.0194 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:20.0295 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:21.2754 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:25.2106 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:26.4567 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:30.3875 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:31.6541 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:35.5794 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:36.8749 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:40.7838 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:43.0337 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:46.1793 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:48.2746 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:51.3604 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:53.5738 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:56.5746 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:03:58.7515 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:01.7484 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:03.9742 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:06.9212 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:09.1654 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:12.1086 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:14.3355 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:17.2836 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:19.5258 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:22.4669 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:24.7100 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:27.6747 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:29.8661 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:32.8510 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:35.0732 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:38.0680 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:40.2769 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:43.2296 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:45.4746 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:48.4752 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:50.7768 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:53.7731 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:56.0789 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:04:58.9738 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:05:01.3773 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:05:04.1597 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:05:06.5511 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:05:09.3637 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:05:11.7738 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:05:14.5746 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:05:16.9746 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:05:34.1869 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:05:38.4753 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:05:43.6738 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:05:48.8749 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:05:54.0734 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:05:59.2699 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:06:04.5767 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:06:09.7766 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:06:14.9753 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:06:20.1641 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:06:25.3386 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:06:30.5116 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
+2021-09-23 15:06:35.6955 | ERROR | Fetch MQTT Credentials Error ! System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at WISEPaaS.DataHub.Edge.DotNet.SDK.EdgeAgent._getCredentialFromDCCS() |  
+
