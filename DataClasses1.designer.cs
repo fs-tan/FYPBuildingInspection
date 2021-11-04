@@ -459,6 +459,8 @@ namespace BuildingInspection
 		
 		private int _droneID;
 		
+		private string _droneName;
+		
 		private string _latitude;
 		
 		private string _longitude;
@@ -467,12 +469,16 @@ namespace BuildingInspection
 		
 		private EntitySet<FlightSchedule> _FlightSchedules;
 		
+		private EntitySet<User> _Users;
+		
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
     partial void OnCreated();
     partial void OndroneIDChanging(int value);
     partial void OndroneIDChanged();
+    partial void OndroneNameChanging(string value);
+    partial void OndroneNameChanged();
     partial void OnlatitudeChanging(string value);
     partial void OnlatitudeChanged();
     partial void OnlongitudeChanging(string value);
@@ -484,6 +490,7 @@ namespace BuildingInspection
 		public DroneInfo()
 		{
 			this._FlightSchedules = new EntitySet<FlightSchedule>(new Action<FlightSchedule>(this.attach_FlightSchedules), new Action<FlightSchedule>(this.detach_FlightSchedules));
+			this._Users = new EntitySet<User>(new Action<User>(this.attach_Users), new Action<User>(this.detach_Users));
 			OnCreated();
 		}
 		
@@ -503,6 +510,26 @@ namespace BuildingInspection
 					this._droneID = value;
 					this.SendPropertyChanged("droneID");
 					this.OndroneIDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_droneName", DbType="VarChar(50) NOT NULL", CanBeNull=false)]
+		public string droneName
+		{
+			get
+			{
+				return this._droneName;
+			}
+			set
+			{
+				if ((this._droneName != value))
+				{
+					this.OndroneNameChanging(value);
+					this.SendPropertyChanging();
+					this._droneName = value;
+					this.SendPropertyChanged("droneName");
+					this.OndroneNameChanged();
 				}
 			}
 		}
@@ -580,6 +607,19 @@ namespace BuildingInspection
 			}
 		}
 		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="DroneInfo_User", Storage="_Users", ThisKey="droneID", OtherKey="droneID")]
+		public EntitySet<User> Users
+		{
+			get
+			{
+				return this._Users;
+			}
+			set
+			{
+				this._Users.Assign(value);
+			}
+		}
+		
 		public event PropertyChangingEventHandler PropertyChanging;
 		
 		public event PropertyChangedEventHandler PropertyChanged;
@@ -607,6 +647,18 @@ namespace BuildingInspection
 		}
 		
 		private void detach_FlightSchedules(FlightSchedule entity)
+		{
+			this.SendPropertyChanging();
+			entity.DroneInfo = null;
+		}
+		
+		private void attach_Users(User entity)
+		{
+			this.SendPropertyChanging();
+			entity.DroneInfo = this;
+		}
+		
+		private void detach_Users(User entity)
 		{
 			this.SendPropertyChanging();
 			entity.DroneInfo = null;
@@ -1679,7 +1731,11 @@ namespace BuildingInspection
 		
 		private string _userImage;
 		
+		private System.Nullable<int> _droneID;
+		
 		private EntitySet<FlightSchedule> _FlightSchedules;
+		
+		private EntityRef<DroneInfo> _DroneInfo;
 		
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -1693,11 +1749,14 @@ namespace BuildingInspection
     partial void OnuserPasswordChanged();
     partial void OnuserImageChanging(string value);
     partial void OnuserImageChanged();
+    partial void OndroneIDChanging(System.Nullable<int> value);
+    partial void OndroneIDChanged();
     #endregion
 		
 		public User()
 		{
 			this._FlightSchedules = new EntitySet<FlightSchedule>(new Action<FlightSchedule>(this.attach_FlightSchedules), new Action<FlightSchedule>(this.detach_FlightSchedules));
+			this._DroneInfo = default(EntityRef<DroneInfo>);
 			OnCreated();
 		}
 		
@@ -1781,6 +1840,30 @@ namespace BuildingInspection
 			}
 		}
 		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_droneID", DbType="Int")]
+		public System.Nullable<int> droneID
+		{
+			get
+			{
+				return this._droneID;
+			}
+			set
+			{
+				if ((this._droneID != value))
+				{
+					if (this._DroneInfo.HasLoadedOrAssignedValue)
+					{
+						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+					}
+					this.OndroneIDChanging(value);
+					this.SendPropertyChanging();
+					this._droneID = value;
+					this.SendPropertyChanged("droneID");
+					this.OndroneIDChanged();
+				}
+			}
+		}
+		
 		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="User_FlightSchedule", Storage="_FlightSchedules", ThisKey="userID", OtherKey="userID")]
 		public EntitySet<FlightSchedule> FlightSchedules
 		{
@@ -1791,6 +1874,40 @@ namespace BuildingInspection
 			set
 			{
 				this._FlightSchedules.Assign(value);
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="DroneInfo_User", Storage="_DroneInfo", ThisKey="droneID", OtherKey="droneID", IsForeignKey=true)]
+		public DroneInfo DroneInfo
+		{
+			get
+			{
+				return this._DroneInfo.Entity;
+			}
+			set
+			{
+				DroneInfo previousValue = this._DroneInfo.Entity;
+				if (((previousValue != value) 
+							|| (this._DroneInfo.HasLoadedOrAssignedValue == false)))
+				{
+					this.SendPropertyChanging();
+					if ((previousValue != null))
+					{
+						this._DroneInfo.Entity = null;
+						previousValue.Users.Remove(this);
+					}
+					this._DroneInfo.Entity = value;
+					if ((value != null))
+					{
+						value.Users.Add(this);
+						this._droneID = value.droneID;
+					}
+					else
+					{
+						this._droneID = default(Nullable<int>);
+					}
+					this.SendPropertyChanged("DroneInfo");
+				}
 			}
 		}
 		

@@ -27,6 +27,15 @@ namespace BuildingInspection
                 p += "*";
             }
             password.Text = p;
+            if (user.droneID != null)
+            {
+                var d = db.DroneInfos.SingleOrDefault(x => x.droneID == user.droneID);
+                drone.Text = d.droneName;
+            }
+            else
+            {
+                drone.Text = "";
+            }
         }
 
         protected void Button1_Click(object sender, EventArgs e)

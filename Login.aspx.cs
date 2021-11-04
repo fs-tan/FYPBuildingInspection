@@ -31,7 +31,7 @@ namespace BuildingInspection
                 }
                 else
                 {
-                    error.Text = "Wrong email or password !";
+                    error.Text = "Wrong username or password !";
                     userName.Text = "";
                     userPassword.Text = "";
                 }
