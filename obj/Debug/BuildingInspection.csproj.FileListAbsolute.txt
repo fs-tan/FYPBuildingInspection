@@ -243,6 +243,5 @@ D:\Source\Code\FYPBuildingInspection\bin\Microsoft.AspNet.FriendlyUrls.xml
 D:\Source\Code\FYPBuildingInspection\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Source\Code\FYPBuildingInspection\obj\Debug\BuildingInspection.csproj.AssemblyReference.cache
 D:\Source\Code\FYPBuildingInspection\obj\Debug\BuildingInspection.csproj.CoreCompileInputs.cache
-D:\Source\Code\FYPBuildingInspection\obj\Debug\BuildingInspection.csproj.CopyComplete
 D:\Source\Code\FYPBuildingInspection\obj\Debug\BuildingInspection.dll
 D:\Source\Code\FYPBuildingInspection\obj\Debug\BuildingInspection.pdb
