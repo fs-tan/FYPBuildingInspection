@@ -46,7 +46,7 @@
     <!-- login -->
     <div class="login">
         <h2>Welcome</h2>
-        <h4>Sign in to your accounthello</h4>
+        <h4>Sign in to your account</h4>
 
         <form method="post" runat="server">
             <div class="form">

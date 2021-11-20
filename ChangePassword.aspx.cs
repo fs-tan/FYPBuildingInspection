@@ -26,7 +26,7 @@ namespace BuildingInspection
                 var result = db.Users.Where(user => user.userName == username).FirstOrDefault();
                 result.userPassword = FormsAuthentication.HashPasswordForStoringInConfigFile(pass, "SHA1");
                 db.SubmitChanges();
-                Response.Write("<script language='javascript'>window.alert('Congratulations. You have updated your password.');;window.location='Login.aspx';</script>"); ;
+                Response.Write("<script language='javascript'>window.alert('Congratulations. You have updated your password.');;window.location='Login.aspx';</script>");
             }
             else
             {

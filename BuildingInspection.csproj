@@ -126,10 +126,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="AddDrone.aspx" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="ChangeDroneInfo.aspx" />
     <Content Include="ChangePassword.aspx" />
     <Content Include="ChangeProfilePicture.aspx" />
     <Content Include="Contact.aspx" />
@@ -140,6 +142,7 @@
     <Content Include="Content\logout.png" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="DroneInfo.aspx" />
     <Content Include="DroneSchedule.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -207,6 +210,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddDrone.aspx.cs">
+      <DependentUpon>AddDrone.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddDrone.aspx.designer.cs">
+      <DependentUpon>AddDrone.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -216,6 +226,13 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="ChangeDroneInfo.aspx.cs">
+      <DependentUpon>ChangeDroneInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangeDroneInfo.aspx.designer.cs">
+      <DependentUpon>ChangeDroneInfo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ChangePassword.aspx.cs">
       <DependentUpon>ChangePassword.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -248,6 +265,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DroneInfo.aspx.cs">
+      <DependentUpon>DroneInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DroneInfo.aspx.designer.cs">
+      <DependentUpon>DroneInfo.aspx</DependentUpon>
     </Compile>
     <Compile Include="DroneSchedule.aspx.cs">
       <DependentUpon>DroneSchedule.aspx</DependentUpon>

@@ -20,10 +20,12 @@
   <Table Name="dbo.DroneInfo" Member="DroneInfos">
     <Type Name="DroneInfo">
       <Column Name="droneID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="droneName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
       <Column Name="latitude" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
       <Column Name="longitude" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
       <Column Name="battery" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Association Name="DroneInfo_FlightSchedule" Member="FlightSchedules" ThisKey="droneID" OtherKey="droneID" Type="FlightSchedule" />
+      <Association Name="DroneInfo_User" Member="Users" ThisKey="droneID" OtherKey="droneID" Type="User" />
     </Type>
   </Table>
   <Table Name="dbo.FlightInfo" Member="FlightInfos">
@@ -79,7 +81,9 @@
       <Column Name="userName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
       <Column Name="userPassword" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
       <Column Name="userImage" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="droneID" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Association Name="User_FlightSchedule" Member="FlightSchedules" ThisKey="userID" OtherKey="userID" Type="FlightSchedule" />
+      <Association Name="DroneInfo_User" Member="DroneInfo" ThisKey="droneID" OtherKey="droneID" Type="DroneInfo" IsForeignKey="true" />
     </Type>
   </Table>
 </Database>
