@@ -33,9 +33,9 @@ namespace BuildingInspection
     partial void InsertCoordinate(Coordinate instance);
     partial void UpdateCoordinate(Coordinate instance);
     partial void DeleteCoordinate(Coordinate instance);
-    partial void InsertWeather(Weather instance);
-    partial void UpdateWeather(Weather instance);
-    partial void DeleteWeather(Weather instance);
+    partial void InsertUser(User instance);
+    partial void UpdateUser(User instance);
+    partial void DeleteUser(User instance);
     partial void InsertDroneInfo(DroneInfo instance);
     partial void UpdateDroneInfo(DroneInfo instance);
     partial void DeleteDroneInfo(DroneInfo instance);
@@ -51,9 +51,6 @@ namespace BuildingInspection
     partial void InsertReport(Report instance);
     partial void UpdateReport(Report instance);
     partial void DeleteReport(Report instance);
-    partial void InsertUser(User instance);
-    partial void UpdateUser(User instance);
-    partial void DeleteUser(User instance);
     #endregion
 		
 		public DataClasses1DataContext() : 
@@ -94,11 +91,11 @@ namespace BuildingInspection
 			}
 		}
 		
-		public System.Data.Linq.Table<Weather> Weathers
+		public System.Data.Linq.Table<User> Users
 		{
 			get
 			{
-				return this.GetTable<Weather>();
+				return this.GetTable<User>();
 			}
 		}
 		
@@ -139,14 +136,6 @@ namespace BuildingInspection
 			get
 			{
 				return this.GetTable<Report>();
-			}
-		}
-		
-		public System.Data.Linq.Table<User> Users
-		{
-			get
-			{
-				return this.GetTable<User>();
 			}
 		}
 	}
@@ -289,123 +278,154 @@ namespace BuildingInspection
 		}
 	}
 	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Weather")]
-	public partial class Weather : INotifyPropertyChanging, INotifyPropertyChanged
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.[User]")]
+	public partial class User : INotifyPropertyChanging, INotifyPropertyChanged
 	{
 		
 		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
 		
-		private int _weatherID;
+		private int _userID;
 		
-		private System.Nullable<System.DateTime> _date;
+		private string _userName;
 		
-		private System.Nullable<System.DateTime> _time;
+		private string _userPassword;
 		
-		private string _weather1;
+		private string _userImage;
+		
+		private System.Nullable<int> _droneID;
 		
 		private EntitySet<FlightSchedule> _FlightSchedules;
+		
+		private EntityRef<DroneInfo> _DroneInfo;
 		
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
     partial void OnCreated();
-    partial void OnweatherIDChanging(int value);
-    partial void OnweatherIDChanged();
-    partial void OndateChanging(System.Nullable<System.DateTime> value);
-    partial void OndateChanged();
-    partial void OntimeChanging(System.Nullable<System.DateTime> value);
-    partial void OntimeChanged();
-    partial void Onweather1Changing(string value);
-    partial void Onweather1Changed();
+    partial void OnuserIDChanging(int value);
+    partial void OnuserIDChanged();
+    partial void OnuserNameChanging(string value);
+    partial void OnuserNameChanged();
+    partial void OnuserPasswordChanging(string value);
+    partial void OnuserPasswordChanged();
+    partial void OnuserImageChanging(string value);
+    partial void OnuserImageChanged();
+    partial void OndroneIDChanging(System.Nullable<int> value);
+    partial void OndroneIDChanged();
     #endregion
 		
-		public Weather()
+		public User()
 		{
 			this._FlightSchedules = new EntitySet<FlightSchedule>(new Action<FlightSchedule>(this.attach_FlightSchedules), new Action<FlightSchedule>(this.detach_FlightSchedules));
+			this._DroneInfo = default(EntityRef<DroneInfo>);
 			OnCreated();
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_weatherID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
-		public int weatherID
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_userID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int userID
 		{
 			get
 			{
-				return this._weatherID;
+				return this._userID;
 			}
 			set
 			{
-				if ((this._weatherID != value))
+				if ((this._userID != value))
 				{
-					this.OnweatherIDChanging(value);
+					this.OnuserIDChanging(value);
 					this.SendPropertyChanging();
-					this._weatherID = value;
-					this.SendPropertyChanged("weatherID");
-					this.OnweatherIDChanged();
+					this._userID = value;
+					this.SendPropertyChanged("userID");
+					this.OnuserIDChanged();
 				}
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_date", DbType="Date")]
-		public System.Nullable<System.DateTime> date
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_userName", DbType="VarChar(50) NOT NULL", CanBeNull=false)]
+		public string userName
 		{
 			get
 			{
-				return this._date;
+				return this._userName;
 			}
 			set
 			{
-				if ((this._date != value))
+				if ((this._userName != value))
 				{
-					this.OndateChanging(value);
+					this.OnuserNameChanging(value);
 					this.SendPropertyChanging();
-					this._date = value;
-					this.SendPropertyChanged("date");
-					this.OndateChanged();
+					this._userName = value;
+					this.SendPropertyChanged("userName");
+					this.OnuserNameChanged();
 				}
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_time", DbType="DateTime")]
-		public System.Nullable<System.DateTime> time
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_userPassword", DbType="VarChar(50) NOT NULL", CanBeNull=false)]
+		public string userPassword
 		{
 			get
 			{
-				return this._time;
+				return this._userPassword;
 			}
 			set
 			{
-				if ((this._time != value))
+				if ((this._userPassword != value))
 				{
-					this.OntimeChanging(value);
+					this.OnuserPasswordChanging(value);
 					this.SendPropertyChanging();
-					this._time = value;
-					this.SendPropertyChanged("time");
-					this.OntimeChanged();
+					this._userPassword = value;
+					this.SendPropertyChanged("userPassword");
+					this.OnuserPasswordChanged();
 				}
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Name="weather", Storage="_weather1", DbType="VarChar(50)")]
-		public string weather1
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_userImage", DbType="VarChar(50)")]
+		public string userImage
 		{
 			get
 			{
-				return this._weather1;
+				return this._userImage;
 			}
 			set
 			{
-				if ((this._weather1 != value))
+				if ((this._userImage != value))
 				{
-					this.Onweather1Changing(value);
+					this.OnuserImageChanging(value);
 					this.SendPropertyChanging();
-					this._weather1 = value;
-					this.SendPropertyChanged("weather1");
-					this.Onweather1Changed();
+					this._userImage = value;
+					this.SendPropertyChanged("userImage");
+					this.OnuserImageChanged();
 				}
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="Weather_FlightSchedule", Storage="_FlightSchedules", ThisKey="weatherID", OtherKey="weatherID")]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_droneID", DbType="Int")]
+		public System.Nullable<int> droneID
+		{
+			get
+			{
+				return this._droneID;
+			}
+			set
+			{
+				if ((this._droneID != value))
+				{
+					if (this._DroneInfo.HasLoadedOrAssignedValue)
+					{
+						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+					}
+					this.OndroneIDChanging(value);
+					this.SendPropertyChanging();
+					this._droneID = value;
+					this.SendPropertyChanged("droneID");
+					this.OndroneIDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="User_FlightSchedule", Storage="_FlightSchedules", ThisKey="userID", OtherKey="userID")]
 		public EntitySet<FlightSchedule> FlightSchedules
 		{
 			get
@@ -415,6 +435,40 @@ namespace BuildingInspection
 			set
 			{
 				this._FlightSchedules.Assign(value);
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="DroneInfo_User", Storage="_DroneInfo", ThisKey="droneID", OtherKey="droneID", IsForeignKey=true)]
+		public DroneInfo DroneInfo
+		{
+			get
+			{
+				return this._DroneInfo.Entity;
+			}
+			set
+			{
+				DroneInfo previousValue = this._DroneInfo.Entity;
+				if (((previousValue != value) 
+							|| (this._DroneInfo.HasLoadedOrAssignedValue == false)))
+				{
+					this.SendPropertyChanging();
+					if ((previousValue != null))
+					{
+						this._DroneInfo.Entity = null;
+						previousValue.Users.Remove(this);
+					}
+					this._DroneInfo.Entity = value;
+					if ((value != null))
+					{
+						value.Users.Add(this);
+						this._droneID = value.droneID;
+					}
+					else
+					{
+						this._droneID = default(Nullable<int>);
+					}
+					this.SendPropertyChanged("DroneInfo");
+				}
 			}
 		}
 		
@@ -441,13 +495,13 @@ namespace BuildingInspection
 		private void attach_FlightSchedules(FlightSchedule entity)
 		{
 			this.SendPropertyChanging();
-			entity.Weather = this;
+			entity.User = this;
 		}
 		
 		private void detach_FlightSchedules(FlightSchedule entity)
 		{
 			this.SendPropertyChanging();
-			entity.Weather = null;
+			entity.User = null;
 		}
 	}
 	
@@ -467,9 +521,9 @@ namespace BuildingInspection
 		
 		private System.Nullable<int> _battery;
 		
-		private EntitySet<FlightSchedule> _FlightSchedules;
-		
 		private EntitySet<User> _Users;
+		
+		private EntitySet<FlightSchedule> _FlightSchedules;
 		
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -489,8 +543,8 @@ namespace BuildingInspection
 		
 		public DroneInfo()
 		{
-			this._FlightSchedules = new EntitySet<FlightSchedule>(new Action<FlightSchedule>(this.attach_FlightSchedules), new Action<FlightSchedule>(this.detach_FlightSchedules));
 			this._Users = new EntitySet<User>(new Action<User>(this.attach_Users), new Action<User>(this.detach_Users));
+			this._FlightSchedules = new EntitySet<FlightSchedule>(new Action<FlightSchedule>(this.attach_FlightSchedules), new Action<FlightSchedule>(this.detach_FlightSchedules));
 			OnCreated();
 		}
 		
@@ -594,19 +648,6 @@ namespace BuildingInspection
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="DroneInfo_FlightSchedule", Storage="_FlightSchedules", ThisKey="droneID", OtherKey="droneID")]
-		public EntitySet<FlightSchedule> FlightSchedules
-		{
-			get
-			{
-				return this._FlightSchedules;
-			}
-			set
-			{
-				this._FlightSchedules.Assign(value);
-			}
-		}
-		
 		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="DroneInfo_User", Storage="_Users", ThisKey="droneID", OtherKey="droneID")]
 		public EntitySet<User> Users
 		{
@@ -617,6 +658,19 @@ namespace BuildingInspection
 			set
 			{
 				this._Users.Assign(value);
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="DroneInfo_FlightSchedule", Storage="_FlightSchedules", ThisKey="droneID", OtherKey="droneID")]
+		public EntitySet<FlightSchedule> FlightSchedules
+		{
+			get
+			{
+				return this._FlightSchedules;
+			}
+			set
+			{
+				this._FlightSchedules.Assign(value);
 			}
 		}
 		
@@ -640,18 +694,6 @@ namespace BuildingInspection
 			}
 		}
 		
-		private void attach_FlightSchedules(FlightSchedule entity)
-		{
-			this.SendPropertyChanging();
-			entity.DroneInfo = this;
-		}
-		
-		private void detach_FlightSchedules(FlightSchedule entity)
-		{
-			this.SendPropertyChanging();
-			entity.DroneInfo = null;
-		}
-		
 		private void attach_Users(User entity)
 		{
 			this.SendPropertyChanging();
@@ -659,6 +701,18 @@ namespace BuildingInspection
 		}
 		
 		private void detach_Users(User entity)
+		{
+			this.SendPropertyChanging();
+			entity.DroneInfo = null;
+		}
+		
+		private void attach_FlightSchedules(FlightSchedule entity)
+		{
+			this.SendPropertyChanging();
+			entity.DroneInfo = this;
+		}
+		
+		private void detach_FlightSchedules(FlightSchedule entity)
 		{
 			this.SendPropertyChanging();
 			entity.DroneInfo = null;
@@ -959,19 +1013,15 @@ namespace BuildingInspection
 		
 		private System.Nullable<int> _userID;
 		
-		private System.Nullable<int> _weatherID;
-		
 		private System.Nullable<int> _droneID;
 		
 		private EntityRef<DroneInfo> _DroneInfo;
 		
 		private EntityRef<FlightInfo> _FlightInfo;
 		
-		private EntityRef<Weather> _Weather;
+		private EntityRef<User> _User;
 		
 		private EntityRef<InspectionResult> _InspectionResult;
-		
-		private EntityRef<User> _User;
 		
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -989,8 +1039,6 @@ namespace BuildingInspection
     partial void OnresultIDChanged();
     partial void OnuserIDChanging(System.Nullable<int> value);
     partial void OnuserIDChanged();
-    partial void OnweatherIDChanging(System.Nullable<int> value);
-    partial void OnweatherIDChanged();
     partial void OndroneIDChanging(System.Nullable<int> value);
     partial void OndroneIDChanged();
     #endregion
@@ -999,9 +1047,8 @@ namespace BuildingInspection
 		{
 			this._DroneInfo = default(EntityRef<DroneInfo>);
 			this._FlightInfo = default(EntityRef<FlightInfo>);
-			this._Weather = default(EntityRef<Weather>);
-			this._InspectionResult = default(EntityRef<InspectionResult>);
 			this._User = default(EntityRef<User>);
+			this._InspectionResult = default(EntityRef<InspectionResult>);
 			OnCreated();
 		}
 		
@@ -1137,30 +1184,6 @@ namespace BuildingInspection
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_weatherID", DbType="Int")]
-		public System.Nullable<int> weatherID
-		{
-			get
-			{
-				return this._weatherID;
-			}
-			set
-			{
-				if ((this._weatherID != value))
-				{
-					if (this._Weather.HasLoadedOrAssignedValue)
-					{
-						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
-					}
-					this.OnweatherIDChanging(value);
-					this.SendPropertyChanging();
-					this._weatherID = value;
-					this.SendPropertyChanged("weatherID");
-					this.OnweatherIDChanged();
-				}
-			}
-		}
-		
 		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_droneID", DbType="Int")]
 		public System.Nullable<int> droneID
 		{
@@ -1253,36 +1276,36 @@ namespace BuildingInspection
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="Weather_FlightSchedule", Storage="_Weather", ThisKey="weatherID", OtherKey="weatherID", IsForeignKey=true)]
-		public Weather Weather
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="User_FlightSchedule", Storage="_User", ThisKey="userID", OtherKey="userID", IsForeignKey=true)]
+		public User User
 		{
 			get
 			{
-				return this._Weather.Entity;
+				return this._User.Entity;
 			}
 			set
 			{
-				Weather previousValue = this._Weather.Entity;
+				User previousValue = this._User.Entity;
 				if (((previousValue != value) 
-							|| (this._Weather.HasLoadedOrAssignedValue == false)))
+							|| (this._User.HasLoadedOrAssignedValue == false)))
 				{
 					this.SendPropertyChanging();
 					if ((previousValue != null))
 					{
-						this._Weather.Entity = null;
+						this._User.Entity = null;
 						previousValue.FlightSchedules.Remove(this);
 					}
-					this._Weather.Entity = value;
+					this._User.Entity = value;
 					if ((value != null))
 					{
 						value.FlightSchedules.Add(this);
-						this._weatherID = value.weatherID;
+						this._userID = value.userID;
 					}
 					else
 					{
-						this._weatherID = default(Nullable<int>);
+						this._userID = default(Nullable<int>);
 					}
-					this.SendPropertyChanged("Weather");
+					this.SendPropertyChanged("User");
 				}
 			}
 		}
@@ -1317,40 +1340,6 @@ namespace BuildingInspection
 						this._resultID = default(Nullable<int>);
 					}
 					this.SendPropertyChanged("InspectionResult");
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="User_FlightSchedule", Storage="_User", ThisKey="userID", OtherKey="userID", IsForeignKey=true)]
-		public User User
-		{
-			get
-			{
-				return this._User.Entity;
-			}
-			set
-			{
-				User previousValue = this._User.Entity;
-				if (((previousValue != value) 
-							|| (this._User.HasLoadedOrAssignedValue == false)))
-				{
-					this.SendPropertyChanging();
-					if ((previousValue != null))
-					{
-						this._User.Entity = null;
-						previousValue.FlightSchedules.Remove(this);
-					}
-					this._User.Entity = value;
-					if ((value != null))
-					{
-						value.FlightSchedules.Add(this);
-						this._userID = value.userID;
-					}
-					else
-					{
-						this._userID = default(Nullable<int>);
-					}
-					this.SendPropertyChanged("User");
 				}
 			}
 		}
@@ -1714,233 +1703,6 @@ namespace BuildingInspection
 		{
 			this.SendPropertyChanging();
 			entity.Report = null;
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.[User]")]
-	public partial class User : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private int _userID;
-		
-		private string _userName;
-		
-		private string _userPassword;
-		
-		private string _userImage;
-		
-		private System.Nullable<int> _droneID;
-		
-		private EntitySet<FlightSchedule> _FlightSchedules;
-		
-		private EntityRef<DroneInfo> _DroneInfo;
-		
-    #region Extensibility Method Definitions
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void OnuserIDChanging(int value);
-    partial void OnuserIDChanged();
-    partial void OnuserNameChanging(string value);
-    partial void OnuserNameChanged();
-    partial void OnuserPasswordChanging(string value);
-    partial void OnuserPasswordChanged();
-    partial void OnuserImageChanging(string value);
-    partial void OnuserImageChanged();
-    partial void OndroneIDChanging(System.Nullable<int> value);
-    partial void OndroneIDChanged();
-    #endregion
-		
-		public User()
-		{
-			this._FlightSchedules = new EntitySet<FlightSchedule>(new Action<FlightSchedule>(this.attach_FlightSchedules), new Action<FlightSchedule>(this.detach_FlightSchedules));
-			this._DroneInfo = default(EntityRef<DroneInfo>);
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_userID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
-		public int userID
-		{
-			get
-			{
-				return this._userID;
-			}
-			set
-			{
-				if ((this._userID != value))
-				{
-					this.OnuserIDChanging(value);
-					this.SendPropertyChanging();
-					this._userID = value;
-					this.SendPropertyChanged("userID");
-					this.OnuserIDChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_userName", DbType="VarChar(50) NOT NULL", CanBeNull=false)]
-		public string userName
-		{
-			get
-			{
-				return this._userName;
-			}
-			set
-			{
-				if ((this._userName != value))
-				{
-					this.OnuserNameChanging(value);
-					this.SendPropertyChanging();
-					this._userName = value;
-					this.SendPropertyChanged("userName");
-					this.OnuserNameChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_userPassword", DbType="VarChar(50) NOT NULL", CanBeNull=false)]
-		public string userPassword
-		{
-			get
-			{
-				return this._userPassword;
-			}
-			set
-			{
-				if ((this._userPassword != value))
-				{
-					this.OnuserPasswordChanging(value);
-					this.SendPropertyChanging();
-					this._userPassword = value;
-					this.SendPropertyChanged("userPassword");
-					this.OnuserPasswordChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_userImage", DbType="VarChar(50)")]
-		public string userImage
-		{
-			get
-			{
-				return this._userImage;
-			}
-			set
-			{
-				if ((this._userImage != value))
-				{
-					this.OnuserImageChanging(value);
-					this.SendPropertyChanging();
-					this._userImage = value;
-					this.SendPropertyChanged("userImage");
-					this.OnuserImageChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_droneID", DbType="Int")]
-		public System.Nullable<int> droneID
-		{
-			get
-			{
-				return this._droneID;
-			}
-			set
-			{
-				if ((this._droneID != value))
-				{
-					if (this._DroneInfo.HasLoadedOrAssignedValue)
-					{
-						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
-					}
-					this.OndroneIDChanging(value);
-					this.SendPropertyChanging();
-					this._droneID = value;
-					this.SendPropertyChanged("droneID");
-					this.OndroneIDChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="User_FlightSchedule", Storage="_FlightSchedules", ThisKey="userID", OtherKey="userID")]
-		public EntitySet<FlightSchedule> FlightSchedules
-		{
-			get
-			{
-				return this._FlightSchedules;
-			}
-			set
-			{
-				this._FlightSchedules.Assign(value);
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="DroneInfo_User", Storage="_DroneInfo", ThisKey="droneID", OtherKey="droneID", IsForeignKey=true)]
-		public DroneInfo DroneInfo
-		{
-			get
-			{
-				return this._DroneInfo.Entity;
-			}
-			set
-			{
-				DroneInfo previousValue = this._DroneInfo.Entity;
-				if (((previousValue != value) 
-							|| (this._DroneInfo.HasLoadedOrAssignedValue == false)))
-				{
-					this.SendPropertyChanging();
-					if ((previousValue != null))
-					{
-						this._DroneInfo.Entity = null;
-						previousValue.Users.Remove(this);
-					}
-					this._DroneInfo.Entity = value;
-					if ((value != null))
-					{
-						value.Users.Add(this);
-						this._droneID = value.droneID;
-					}
-					else
-					{
-						this._droneID = default(Nullable<int>);
-					}
-					this.SendPropertyChanged("DroneInfo");
-				}
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-		
-		private void attach_FlightSchedules(FlightSchedule entity)
-		{
-			this.SendPropertyChanging();
-			entity.User = this;
-		}
-		
-		private void detach_FlightSchedules(FlightSchedule entity)
-		{
-			this.SendPropertyChanging();
-			entity.User = null;
 		}
 	}
 }

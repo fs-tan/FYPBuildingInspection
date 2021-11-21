@@ -143,6 +143,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="DroneInfo.aspx" />
+    <Content Include="DroneSchedule%28DateTime%29.aspx" />
+    <Content Include="DroneSchedule%28TaskLocation%29.aspx" />
     <Content Include="DroneSchedule.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -174,6 +176,8 @@
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Profile.aspx" />
     <Content Include="Register.aspx" />
+    <Content Include="Result%28Detail%29.aspx" />
+    <Content Include="Result.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -273,6 +277,20 @@
     <Compile Include="DroneInfo.aspx.designer.cs">
       <DependentUpon>DroneInfo.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DroneSchedule%28DateTime%29.aspx.cs">
+      <DependentUpon>DroneSchedule%28DateTime%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DroneSchedule%28DateTime%29.aspx.designer.cs">
+      <DependentUpon>DroneSchedule%28DateTime%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DroneSchedule%28TaskLocation%29.aspx.cs">
+      <DependentUpon>DroneSchedule%28TaskLocation%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DroneSchedule%28TaskLocation%29.aspx.designer.cs">
+      <DependentUpon>DroneSchedule%28TaskLocation%29.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DroneSchedule.aspx.cs">
       <DependentUpon>DroneSchedule.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -318,6 +336,20 @@
     </Compile>
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Result%28Detail%29.aspx.cs">
+      <DependentUpon>Result%28Detail%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Result%28Detail%29.aspx.designer.cs">
+      <DependentUpon>Result%28Detail%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Result.aspx.cs">
+      <DependentUpon>Result.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Result.aspx.designer.cs">
+      <DependentUpon>Result.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
