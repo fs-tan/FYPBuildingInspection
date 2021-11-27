@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="DroneSchedule.aspx.cs" Inherits="BuildingInspection.DroneSchedule1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <h3 style="margin-left:10%; margin-top:20px; margin-bottom:0px">Drone Schedules</h3>
+    <asp:Button ID="newSchedule" runat="server" Text="Add New Schedule" style="margin-left:85%;" OnClick="newSchedule_Click" class="btn btn-default"/>
 
-    <asp:Button ID="newSchedule" runat="server" Text="Add New Schedule" style="margin-left:85%; margin-top:20px"/>
-
-    <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="scheduleID" DataSourceID="SqlDataSource1" ForeColor="Black" GridLines="Horizontal" style="width:100%; margin-top:10px;" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
+    <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="scheduleID" DataSourceID="SqlDataSource1" ForeColor="Black" GridLines="Horizontal" style="width:100%; margin-top:10px;">
         <Columns>
             <asp:TemplateField ShowHeader="False">
                 <EditItemTemplate>
@@ -11,18 +11,18 @@
                     &nbsp;<asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel"></asp:LinkButton>
                 </EditItemTemplate>
                 <ItemTemplate>
-                    <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit" OnClick="Edit_OnClick"></asp:LinkButton>
-                    &nbsp;<asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="False" CommandName="Select" Text="Select"></asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit" OnClick="Edit_OnClick"  CommandArgument='<%#Eval("scheduleID")%>'></asp:LinkButton>
+                    &nbsp;<asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="False" CommandName="Select" Text="Select" OnClick="Select_OnClick" CommandArgument='<%#Eval("scheduleID") %>'></asp:LinkButton>
                     &nbsp;<asp:LinkButton ID="LinkButton3" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete" OnClientClick="return confirm('Are you sure you want to delete?'); "></asp:LinkButton>
                 </ItemTemplate>
             </asp:TemplateField>
-            <asp:BoundField DataField="scheduleID" HeaderText="scheduleID" InsertVisible="False" ReadOnly="True" SortExpression="scheduleID" />
-            <asp:BoundField DataField="scheduleName" HeaderText="scheduleName" SortExpression="scheduleName" />
-            <asp:BoundField DataField="status" HeaderText="status" SortExpression="status" />
-            <asp:BoundField DataField="flightInfoID" HeaderText="flightInfoID" SortExpression="flightInfoID" />
-            <asp:BoundField DataField="resultID" HeaderText="resultID" SortExpression="resultID" />
-            <asp:BoundField DataField="userID" HeaderText="userID" SortExpression="userID" />
-            <asp:BoundField DataField="droneID" HeaderText="droneID" SortExpression="droneID" />
+            <asp:BoundField DataField="scheduleID" HeaderText="Schedule ID" InsertVisible="False" ReadOnly="True" SortExpression="scheduleID" />
+            <asp:BoundField DataField="scheduleName" HeaderText="Schedule Name" SortExpression="scheduleName" />
+            <asp:BoundField DataField="status" HeaderText="Status" SortExpression="status" />
+            <asp:BoundField DataField="flightInfoID" HeaderText="Flight Info ID" SortExpression="flightInfoID" />
+            <asp:BoundField DataField="resultID" HeaderText="Result ID" SortExpression="resultID" />
+            <asp:BoundField DataField="userID" HeaderText="User ID" SortExpression="userID" />
+            <asp:BoundField DataField="droneID" HeaderText="User's Drone ID" SortExpression="droneID" />
         </Columns>
         <FooterStyle BackColor="#CCCC99" ForeColor="Black" />
         <HeaderStyle BackColor="#333333" Font-Bold="True" ForeColor="White" />

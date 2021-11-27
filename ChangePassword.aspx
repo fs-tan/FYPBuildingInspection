@@ -1,7 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ChangePassword.aspx.cs" Inherits="BuildingInspection.ChangePassword" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div style="margin-top:10%; width:80%; position:fixed; left:15%">
+    <div style="margin-top:10%; width:80%;" class="login">
         <strong>Change Password</strong>
+        <br />
         <span>Enter Your New Password</span>
         <div class="form">
             <div class="form-row">

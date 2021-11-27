@@ -14,7 +14,7 @@ namespace BuildingInspection
         protected void Page_Load(object sender, EventArgs e)
         {
             DateTime now = DateTime.Today;
-            Session["selectedDate"] = now;
+            Session["selectedDate"] = now.ToShortDateString();
 
             DateTime time = DateTime.Now;
             var n = DateTime.ParseExact(now.ToShortDateString() + " 08:00:00", "dd/MM/yyyy HH:mm:ss", System.Globalization.CultureInfo.InvariantCulture);
@@ -153,7 +153,7 @@ namespace BuildingInspection
         {
             DateTime dateSelected = calendar.SelectedDate;
 
-            Session["selectedDate"] = dateSelected.ToString("dd/MM/yyyy");
+            Session["selectedDate"] = dateSelected.ToShortDateString();
             Session["selectedTime"] = timeDDL.SelectedItem.Value;
             Response.Redirect("DroneSchedule(TaskLocation).aspx");
         }

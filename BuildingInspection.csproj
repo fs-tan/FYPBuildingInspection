@@ -70,6 +70,7 @@
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -132,6 +133,7 @@
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
     <Content Include="ChangeDroneInfo.aspx" />
+    <Content Include="ChangeDroneSchedule.aspx" />
     <Content Include="ChangePassword.aspx" />
     <Content Include="ChangeProfilePicture.aspx" />
     <Content Include="Contact.aspx" />
@@ -141,9 +143,11 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\logout.png" />
     <Content Include="Content\Site.css" />
+    <Content Include="Dashboard.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="DroneInfo.aspx" />
     <Content Include="DroneSchedule%28DateTime%29.aspx" />
+    <Content Include="DroneSchedule%28Select%29.aspx" />
     <Content Include="DroneSchedule%28TaskLocation%29.aspx" />
     <Content Include="DroneSchedule.aspx" />
     <Content Include="favicon.ico" />
@@ -176,8 +180,8 @@
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Profile.aspx" />
     <Content Include="Register.aspx" />
-    <Content Include="Result%28Detail%29.aspx" />
-    <Content Include="Result.aspx" />
+    <Content Include="Report%28Select%29.aspx" />
+    <Content Include="Report.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -207,6 +211,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="test.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Weather.aspx" />
     <Content Include="Web.config" />
@@ -237,6 +242,13 @@
     <Compile Include="ChangeDroneInfo.aspx.designer.cs">
       <DependentUpon>ChangeDroneInfo.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ChangeDroneSchedule.aspx.cs">
+      <DependentUpon>ChangeDroneSchedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangeDroneSchedule.aspx.designer.cs">
+      <DependentUpon>ChangeDroneSchedule.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ChangePassword.aspx.cs">
       <DependentUpon>ChangePassword.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -257,6 +269,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="DataClasses1.designer.cs">
       <AutoGen>True</AutoGen>
@@ -283,6 +302,13 @@
     </Compile>
     <Compile Include="DroneSchedule%28DateTime%29.aspx.designer.cs">
       <DependentUpon>DroneSchedule%28DateTime%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DroneSchedule%28Select%29.aspx.cs">
+      <DependentUpon>DroneSchedule%28Select%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DroneSchedule%28Select%29.aspx.designer.cs">
+      <DependentUpon>DroneSchedule%28Select%29.aspx</DependentUpon>
     </Compile>
     <Compile Include="DroneSchedule%28TaskLocation%29.aspx.cs">
       <DependentUpon>DroneSchedule%28TaskLocation%29.aspx</DependentUpon>
@@ -337,19 +363,19 @@
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Result%28Detail%29.aspx.cs">
-      <DependentUpon>Result%28Detail%29.aspx</DependentUpon>
+    <Compile Include="Report%28Select%29.aspx.cs">
+      <DependentUpon>Report%28Select%29.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Result%28Detail%29.aspx.designer.cs">
-      <DependentUpon>Result%28Detail%29.aspx</DependentUpon>
+    <Compile Include="Report%28Select%29.aspx.designer.cs">
+      <DependentUpon>Report%28Select%29.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Result.aspx.cs">
-      <DependentUpon>Result.aspx</DependentUpon>
+    <Compile Include="Report.aspx.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Result.aspx.designer.cs">
-      <DependentUpon>Result.aspx</DependentUpon>
+    <Compile Include="Report.aspx.designer.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -364,6 +390,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

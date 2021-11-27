@@ -727,9 +727,9 @@ namespace BuildingInspection
 		
 		private int _flightInfoID;
 		
-		private System.Nullable<System.DateTime> _date;
+		private string _date;
 		
-		private System.Nullable<System.DateTime> _time;
+		private string _time;
 		
 		private System.Nullable<int> _coordinatesID;
 		
@@ -747,9 +747,9 @@ namespace BuildingInspection
     partial void OnCreated();
     partial void OnflightInfoIDChanging(int value);
     partial void OnflightInfoIDChanged();
-    partial void OndateChanging(System.Nullable<System.DateTime> value);
+    partial void OndateChanging(string value);
     partial void OndateChanged();
-    partial void OntimeChanging(System.Nullable<System.DateTime> value);
+    partial void OntimeChanging(string value);
     partial void OntimeChanged();
     partial void OncoordinatesIDChanging(System.Nullable<int> value);
     partial void OncoordinatesIDChanged();
@@ -788,8 +788,8 @@ namespace BuildingInspection
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_date", DbType="Date")]
-		public System.Nullable<System.DateTime> date
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_date", DbType="VarChar(50)")]
+		public string date
 		{
 			get
 			{
@@ -808,8 +808,8 @@ namespace BuildingInspection
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_time", DbType="DateTime")]
-		public System.Nullable<System.DateTime> time
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_time", DbType="VarChar(50)")]
+		public string time
 		{
 			get
 			{
@@ -1375,6 +1375,16 @@ namespace BuildingInspection
 		
 		private string _resultStatus;
 		
+		private string _armed;
+		
+		private string _attitude;
+		
+		private string _latitude;
+		
+		private string _longitude;
+		
+		private string _mode;
+		
 		private System.Nullable<int> _reportID;
 		
 		private EntitySet<FlightSchedule> _FlightSchedules;
@@ -1389,6 +1399,16 @@ namespace BuildingInspection
     partial void OnresultIDChanged();
     partial void OnresultStatusChanging(string value);
     partial void OnresultStatusChanged();
+    partial void OnarmedChanging(string value);
+    partial void OnarmedChanged();
+    partial void OnattitudeChanging(string value);
+    partial void OnattitudeChanged();
+    partial void OnlatitudeChanging(string value);
+    partial void OnlatitudeChanged();
+    partial void OnlongitudeChanging(string value);
+    partial void OnlongitudeChanged();
+    partial void OnmodeChanging(string value);
+    partial void OnmodeChanged();
     partial void OnreportIDChanging(System.Nullable<int> value);
     partial void OnreportIDChanged();
     #endregion
@@ -1436,6 +1456,106 @@ namespace BuildingInspection
 					this._resultStatus = value;
 					this.SendPropertyChanged("resultStatus");
 					this.OnresultStatusChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_armed", DbType="VarChar(50)")]
+		public string armed
+		{
+			get
+			{
+				return this._armed;
+			}
+			set
+			{
+				if ((this._armed != value))
+				{
+					this.OnarmedChanging(value);
+					this.SendPropertyChanging();
+					this._armed = value;
+					this.SendPropertyChanged("armed");
+					this.OnarmedChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_attitude", DbType="VarChar(50)")]
+		public string attitude
+		{
+			get
+			{
+				return this._attitude;
+			}
+			set
+			{
+				if ((this._attitude != value))
+				{
+					this.OnattitudeChanging(value);
+					this.SendPropertyChanging();
+					this._attitude = value;
+					this.SendPropertyChanged("attitude");
+					this.OnattitudeChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_latitude", DbType="VarChar(50)")]
+		public string latitude
+		{
+			get
+			{
+				return this._latitude;
+			}
+			set
+			{
+				if ((this._latitude != value))
+				{
+					this.OnlatitudeChanging(value);
+					this.SendPropertyChanging();
+					this._latitude = value;
+					this.SendPropertyChanged("latitude");
+					this.OnlatitudeChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_longitude", DbType="VarChar(50)")]
+		public string longitude
+		{
+			get
+			{
+				return this._longitude;
+			}
+			set
+			{
+				if ((this._longitude != value))
+				{
+					this.OnlongitudeChanging(value);
+					this.SendPropertyChanging();
+					this._longitude = value;
+					this.SendPropertyChanged("longitude");
+					this.OnlongitudeChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_mode", DbType="VarChar(50)")]
+		public string mode
+		{
+			get
+			{
+				return this._mode;
+			}
+			set
+			{
+				if ((this._mode != value))
+				{
+					this.OnmodeChanging(value);
+					this.SendPropertyChanging();
+					this._mode = value;
+					this.SendPropertyChanged("mode");
+					this.OnmodeChanged();
 				}
 			}
 		}
@@ -1554,9 +1674,9 @@ namespace BuildingInspection
 		
 		private string _reportName;
 		
-		private System.Nullable<System.DateTime> _date;
+		private string _date;
 		
-		private System.Nullable<System.DateTime> _time;
+		private string _time;
 		
 		private EntitySet<InspectionResult> _InspectionResults;
 		
@@ -1568,9 +1688,9 @@ namespace BuildingInspection
     partial void OnreportIDChanged();
     partial void OnreportNameChanging(string value);
     partial void OnreportNameChanged();
-    partial void OndateChanging(System.Nullable<System.DateTime> value);
+    partial void OndateChanging(string value);
     partial void OndateChanged();
-    partial void OntimeChanging(System.Nullable<System.DateTime> value);
+    partial void OntimeChanging(string value);
     partial void OntimeChanged();
     #endregion
 		
@@ -1620,8 +1740,8 @@ namespace BuildingInspection
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_date", DbType="Date")]
-		public System.Nullable<System.DateTime> date
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_date", DbType="VarChar(50)")]
+		public string date
 		{
 			get
 			{
@@ -1640,8 +1760,8 @@ namespace BuildingInspection
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_time", DbType="DateTime")]
-		public System.Nullable<System.DateTime> time
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_time", DbType="VarChar(50)")]
+		public string time
 		{
 			get
 			{

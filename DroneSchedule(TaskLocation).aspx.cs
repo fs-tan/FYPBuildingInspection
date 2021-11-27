@@ -20,8 +20,8 @@ namespace BuildingInspection
             {
                 using (DataClasses1DataContext db = new DataClasses1DataContext())
                 {
-                    var taskLatValue = int.Parse(lat.Text);
-                    var taskLngValue = int.Parse(lng.Text);
+                    var taskLatValue = Convert.ToDouble(lat.Text);
+                    var taskLngValue = Convert.ToDouble(lng.Text);
                     if (taskLatValue <= 90 || taskLatValue >= -90)
                     {
                         latMessage.Text = "";
@@ -42,8 +42,8 @@ namespace BuildingInspection
                             {
                                 FlightInfo f = new FlightInfo
                                 {
-                                    date = DateTime.Parse(Session["selectedDate"].ToString()),
-                                    time = DateTime.Parse(Session["selectedTime"].ToString()),
+                                    date = Session["selectedDate"].ToString(),
+                                    time = Session["selectedTime"].ToString(),
                                     coordinatesID = c.coordinatesID
                                 };
                                 db.FlightInfos.InsertOnSubmit(f);
@@ -52,23 +52,29 @@ namespace BuildingInspection
                                 Report r = new Report
                                 {
                                     reportName = scheduleName.Text + "(" + Session["selectedDate"].ToString() + ")",
-                                    date = DateTime.Parse(Session["selectedDate"].ToString()),
-                                    time = DateTime.Parse(Session["selectedTime"].ToString())
+                                    date = Session["selectedDate"].ToString(),
+                                    time = Session["selectedTime"].ToString()
                                 };
                                 db.Reports.InsertOnSubmit(r);
                                 db.SubmitChanges();
 
                                 if (r != null)
                                 {
+                                    User u = db.Users.SingleOrDefault(x => x.userID == int.Parse(Session["userID"].ToString()));
+
                                     InspectionResult ir = new InspectionResult
                                     {
                                         resultStatus = "Pending",
+                                        armed = "disarmed",
+                                        attitude = "0",
+                                        latitude = u.DroneInfo.latitude,
+                                        longitude = u.DroneInfo.longitude,
+                                        mode = "Stabilize",
                                         reportID = r.reportID
                                     };
                                     db.InspectionResults.InsertOnSubmit(ir);
                                     db.SubmitChanges();
 
-                                    User u = db.Users.SingleOrDefault(x => x.userID == int.Parse(Session["userID"].ToString()));
 
                                     if (f != null && ir != null)
                                     {
@@ -86,7 +92,7 @@ namespace BuildingInspection
                                     }
                                 }
                             }
-                            Response.Write("<script language='javascript'>window.alert('Congratulations! New drone schedule has been created successfully!');window.location='Profile.aspx';</script>");
+                            Response.Write("<script language='javascript'>window.alert('Congratulations! New drone schedule has been created successfully!');window.location='DroneSchedule.aspx';</script>");
                         }
                         else
                         {

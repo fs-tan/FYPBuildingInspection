@@ -8,8 +8,10 @@
             padding-left:10px;
         }
     </style>
-    <div style="margin-top:15%; display:flex; position:relative; justify-content:center; align-items:center;">
-        <table style="width:80%;">
+    <div class="login">
+        <strong>Drone Info</strong>
+        <br />
+        <table style="width:150%; margin-left:-25%">
             <tr>
                 <td style="width: 30%">
                     <asp:Label ID="Label3" runat="server" Text="Drone ID  :"></asp:Label>

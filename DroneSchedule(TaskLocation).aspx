@@ -9,6 +9,7 @@ table, th, td {
   border: 1px solid black;
 }
 </style>
+            <h3 style="margin-left:10px">Add New Drone Schedules</h3>
     <table style="margin-top:15px; width:100%;">
         <tr>
             <td style="width:40%">

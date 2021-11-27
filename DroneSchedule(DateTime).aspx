@@ -1,5 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="DroneSchedule(DateTime).aspx.cs" Inherits="BuildingInspection.DroneSchedule" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <div style="top:10%">
+        <h3 style="margin-left:10px">Add New Drone Schedules</h3>
     <table style="margin-top: 30px; width: 80%; left:10%; position:absolute;">
         <tr>
             <td colspan="2">
@@ -205,7 +207,7 @@
                         <asp:ListItem>Batu Berendam</asp:ListItem>
                         <asp:ListItem>Api Rokok</asp:ListItem>
                     </asp:DropDownList>
-                    <asp:Button ID="Button1" runat="server" CssClass="nextBtn" Text="Search" style="margin-left:10px"/>
+                    <asp:Button ID="Button1" runat="server" CssClass="nextBtn" Text="Search" style="margin-left:10px" class="btn btn-default"/>
                 </div>
             </td>
         </tr>
@@ -236,8 +238,9 @@
         </tr>
         <tr>
             <td colspan="3" style="text-align:right; padding-right:20px;">
-                <asp:Button ID="nextBtn" runat="server" Text="Next" OnClick="nextBtn_Click" Enabled="false" />
+                <asp:Button ID="nextBtn" runat="server" Text="Next" OnClick="nextBtn_Click" Enabled="false" class="btn btn-primary"/>
             </td>
         </tr>
     </table>
+        </div>
 </asp:Content>

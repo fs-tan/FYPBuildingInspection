@@ -46,13 +46,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
+                    <a class="navbar-brand" runat="server" href="HomePage.aspx">Autonomous Drone for Building Inspection</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav"  style="float: right">
                         <li><a runat="server" href="DroneSchedule.aspx">Drone Schedule</a></li>
                         <li><a runat="server" href="Weather.aspx">Weather</a></li>
-                        <li><a runat="server" href="https://dashboard-yiqi-ews.education.wise-paas.com/d/nHojtuS7k/building-inspection?orgId=1">Dashboard</a></li>
+                        <li><a runat="server" href="Report.aspx">Report</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                         <li><asp:HyperLink runat="server" NavigateUrl="~/Login.aspx" ID="login" Text="Login"></asp:HyperLink></li>
