@@ -7,8 +7,8 @@ body {
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .Label {
@@ -120,17 +120,8 @@ footer {
 .display {
     position: relative;
     text-align: center;
-    color: white;
-}
+    color: rgba(255,255,255,0.5);
 
-#backGround {
-    height: 500px;
-    width: auto;
-    background-image: url('../Content/picture.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .bottom-left {
@@ -170,7 +161,7 @@ footer {
 }
 
 .ccy {
-    background-image: url('../Content/picture.png');
+    background-image: url('../Content/drone.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -204,7 +195,7 @@ footer {
 
 .register,
 .login {
-    background: #ffffff;
+    background: rgba(255,255,255,0.5);
     position: fixed;
     left: 40%;
     top: 5%;
@@ -265,6 +256,7 @@ footer {
     margin: auto;
     margin-top: 100px;
 }
+
 
 
 

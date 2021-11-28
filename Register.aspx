@@ -12,16 +12,16 @@
     <style>
         #myVideo {
           position:fixed;
-          right: 0;
-          bottom: 0;
-          max-width: 100%; 
-          max-height: 120%;
+          left:0;
+          top:0;
+          width:100%;
+          height:100%;
         }
     </style>
 </head>
 <body class="">
     <video autoplay muted loop id="myVideo">
-      <%--<source src="Content/PennyJuice.mp4" type="video/mp4">--%>
+        <source src="Content/background.mp4" type="video/mp4">
       Your browser does not support HTML5 video.
     </video>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -36,9 +36,7 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav" style="float: right">
-                        <li><a runat="server" href="">hi</a></li>
-                        <li><a runat="server" href="">hello</a></li>
-                        <li><asp:HyperLink runat="server" NavigateUrl="~/Login.aspx" ID="login" Text="Login"></asp:HyperLink></li>
+                    <li><asp:HyperLink runat="server" NavigateUrl="~/Login.aspx" ID="login" Text="Login"></asp:HyperLink></li>
                 </ul>
             </div>
         </div>

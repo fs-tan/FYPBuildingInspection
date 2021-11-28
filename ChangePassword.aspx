@@ -1,5 +1,18 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ChangePassword.aspx.cs" Inherits="BuildingInspection.ChangePassword" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <style>
+        #myVideo {
+          position:fixed;
+          left:0;
+          top:0;
+          width:100%;
+          height:100%;
+        }
+    </style>
+    <video autoplay muted loop id="myVideo">
+        <source src="uploads/beach1.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
     <div style="margin-top:10%; width:80%;" class="login">
         <strong>Change Password</strong>
         <br />

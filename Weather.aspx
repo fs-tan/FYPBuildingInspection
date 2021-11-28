@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Weather.aspx.cs" Inherits="BuildingInspection.Weather1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div style="margin-top:10%">
+    <div style="margin-top:8%">
+            <h2>Weather</h2>
     <%--<a class="weatherwidget-io" href="https://forecast7.com/en/3d16101d71/federal-territory-of-kuala-lumpur/" data-label_1="WILAYAH PERSEKUTUAN KUALA LUMPUR" data-label_2="WEATHER" data-theme="weather_one" >WILAYAH PERSEKUTUAN KUALA LUMPUR WEATHER</a>
     <script>
         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
@@ -51,7 +52,9 @@
 
     </select>
 
-    <asp:Button ID="btnChangeRegion" runat="server" Text="Select" OnClick="btnChangeRegion_Click"/>
+    <asp:Button ID="btnChangeRegion" runat="server" Text="Select" OnClick="btnChangeRegion_Click" class="btn btn-default"/>
+        <br />
+        <br />
 
     <!-- Start WX Widget Code --><div style="color: #455052; width: 100%; border: 1px solid #428bca; background-image: radial-gradient(circle, #fff, #f5faff, #e5efff);"><script type="text/javascript" id="weather1" language="JavaScript" src="<%=MySrc() %>"></script></div><!-- End WX Widget Code -->
 <%--    <!-- Start WX Widget Code --><div style="color: #455052; max-width: 400px; width: 100%; border: 1px solid #428bca; background-image: radial-gradient(circle, #fff, #f5faff, #e5efff);"><script src="https://www.weatherwx.com/weather-js/my/kuala+lumpur.js"></script></div><!-- End WX Widget Code -->--%>
