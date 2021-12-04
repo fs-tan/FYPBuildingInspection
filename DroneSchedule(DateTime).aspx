@@ -213,7 +213,7 @@
         </tr>
         <tr style="right:20px; height:250px">
             <td style="padding-left: 20px;">
-                <asp:Calendar ID="calendar" runat="server" TitleStyle-CssClass="calendarTitle" NextPrevStyle-CssClass="calendarNP" OnDayRender="calendar_DayRender" OnSelectionChanged="calendar_SelectionChanged" SelectionMode="Day" style="width: 100%; height: 100%;"></asp:Calendar>
+                <asp:Calendar ID="calendar" runat="server" TitleStyle-CssClass="calendarTitle" NextPrevStyle-CssClass="calendarNP" OnDayRender="calendar_DayRender" OnSelectionChanged="calendar_SelectionChanged" SelectionMode="Day" style="width: 100%; height: 100%;" SelectedDayStyle-ForeColor="Blue"></asp:Calendar>
             </td>
             <td style=" align-items:center; padding-left: 40px; padding-right:20px; width:210px; padding-top:15px; padding-bottom:15px; position:center">
                 <div class="tempDiv">

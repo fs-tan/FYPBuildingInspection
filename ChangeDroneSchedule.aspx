@@ -1,5 +1,18 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ChangeDroneSchedule.aspx.cs" Inherits="BuildingInspection.ChangeDroneSchedule" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <style>
+        #myVideo {
+          position:fixed;
+          left:0;
+          top:0;
+          width:100%;
+          height:100%;
+        }
+    </style>
+    <video autoplay muted loop id="myVideo">
+        <source src="Content/background.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
     <div style="margin-top:0%;" class="login">
         <strong>Modify Drone Schedule</strong>
         <span>Enter New Drone Schedule Info</span>

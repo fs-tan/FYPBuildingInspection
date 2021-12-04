@@ -75,7 +75,6 @@ namespace BuildingInspection
                                     db.InspectionResults.InsertOnSubmit(ir);
                                     db.SubmitChanges();
 
-
                                     if (f != null && ir != null)
                                     {
                                         FlightSchedule fs = new FlightSchedule
@@ -92,7 +91,8 @@ namespace BuildingInspection
                                     }
                                 }
                             }
-                            Response.Write("<script language='javascript'>window.alert('Congratulations! New drone schedule has been created successfully!');window.location='DroneSchedule.aspx';</script>");
+                            Response.Write("<script language='javascript'>window.alert('Congratulations! New drone schedule has been created" +
+                                " successfully!');window.location='DroneSchedule.aspx';</script>");
                         }
                         else
                         {

@@ -161,7 +161,6 @@ footer {
 }
 
 .ccy {
-    background-image: url('../Content/drone.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -195,7 +194,7 @@ footer {
 
 .register,
 .login {
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,255,255,0.7);
     position: fixed;
     left: 40%;
     top: 5%;
@@ -225,7 +224,7 @@ footer {
 
 .register .form .form-label,
 .login .form .form-label {
-    color: #696687;
+    color: black;
     font-size: 17px;
     opacity: .7;
 }

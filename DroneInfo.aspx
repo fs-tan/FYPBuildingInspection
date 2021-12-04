@@ -2,10 +2,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <style>
         td{
-            width: 200px; 
+            width: 80%; 
             text-align:left; 
             padding-top: 0;
             padding-left:10px;
+            height:25px;
         }
     </style>
     <div class="login">

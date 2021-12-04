@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="HomePage.aspx.cs" Inherits="BuildingInspection.WebForm2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="display ccy">
-                <div id="backGround" style="background-image:url('../Content/drone.jpg'); margin-top:2%"></div>
+                <div id="backGround" style="background-image:url('Content/drone.jpg'); margin-top:2%; height: 550px; width: auto; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
                 <div class="centered">
-                    <h1 class="m-b-20"><strong>😍Welcome To😍
+                    <h1 class="m-b-20"><strong style="color:white">😍Welcome To😍
                         <br>
                          Autonomous Drone for Building Inspection  </strong></h1>
                     </div>

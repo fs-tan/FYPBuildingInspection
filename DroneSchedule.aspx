@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="DroneSchedule.aspx.cs" Inherits="BuildingInspection.DroneSchedule1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <h3 style="margin-left:10%; margin-top:8%; margin-bottom:0px">Drone Schedules</h3>
+    <h3 style=" margin-top:8%; margin-bottom:0px">Drone Schedules</h3>
     <asp:Button ID="newSchedule" runat="server" Text="Add New Schedule" style="margin-left:85%;" OnClick="newSchedule_Click" class="btn btn-default"/>
 
     <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="scheduleID" DataSourceID="SqlDataSource1" ForeColor="Black" GridLines="Horizontal" style="width:100%; margin-top:10px;">

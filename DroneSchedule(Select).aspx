@@ -1,5 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="DroneSchedule(Select).aspx.cs" Inherits="BuildingInspection.DroneSchedule_Select_" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <style>
+        td{
+            height:25px;
+        }
+    </style>
     <div style="margin-top:5%; width:80%; position:fixed; left:15%">
         <h3 style="margin-left:10%">Drone Schedule Details</h3>
         <table style="width:80%; margin-left:10%">

@@ -1,5 +1,18 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ChangeProfilePicture.aspx.cs" Inherits="BuildingInspection.ChangeProfilePicture" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <style>
+        #myVideo {
+          position:fixed;
+          left:0;
+          top:0;
+          width:100%;
+          height:100%;
+        }
+    </style>
+    <video autoplay muted loop id="myVideo">
+        <source src="Content/background.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
     <div class="login">
         <strong>Change Profile Picture</strong>
         <asp:Image ID="Image1" runat="server" Height="10em" ImageAlign="Middle"/>

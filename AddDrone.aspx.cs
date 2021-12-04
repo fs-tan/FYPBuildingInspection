@@ -83,7 +83,6 @@ namespace BuildingInspection
                             Session["passDroneName"] = droneName.Text;
                         }
                         Response.Write("<script language='javascript'>window.alert('New Drone created!');window.location='DroneInfo.aspx';</script>");
-
                     }
                     else
                     {

@@ -35,7 +35,8 @@ namespace BuildingInspection
                             };
                             db.Users.InsertOnSubmit(i);
                             db.SubmitChanges();
-                            Response.Write("<script language='javascript'>window.alert('Account created! You can log in to our project now.');window.location='Login.aspx';</script>");
+                            Response.Write("<script language='javascript'>window.alert('Account created! You can log in to our project now.');" +
+                                "window.location='Login.aspx';</script>");
                         }
                         else
                         {

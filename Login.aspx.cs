@@ -27,7 +27,8 @@ namespace BuildingInspection
                 {
                     error.Text = "";
                     Session["userID"] = source.userID;
-                    Response.Write("<script language='javascript'>window.alert('Login Successful! Welcome to our project!');;window.location='HomePage.aspx';</script>");
+                    Response.Write("<script language='javascript'>window.alert('Login Successful! Welcome to our project!');" +
+                        "window.location='HomePage.aspx';</script>");
                 }
                 else
                 {

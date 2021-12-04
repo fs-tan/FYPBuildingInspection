@@ -14,17 +14,17 @@ namespace BuildingInspection
         protected void Page_Load(object sender, EventArgs e)
         {
             DateTime now = DateTime.Today;
+            calendar.SelectedDate = now;
             Session["selectedDate"] = now.ToShortDateString();
-
             DateTime time = DateTime.Now;
-            var n = DateTime.ParseExact(now.ToShortDateString() + " 08:00:00", "dd/MM/yyyy HH:mm:ss", System.Globalization.CultureInfo.InvariantCulture);
 
+            var t = DateTime.Parse(DateTime.Today.AddHours(8).ToShortTimeString());
 
-            for (int i = 0; i < 16; i++)
+            for (int i = 0; i < 19; i++)
             {
-                if (time < n)
-                    timeDDL.Items.Add(n.ToString("HH:mm"));
-                n = n.AddMinutes(30);
+                if (time < t)
+                    timeDDL.Items.Add(t.ToString("HH:mm"));
+                t = t.AddMinutes(30);
             }
 
             compareDate(now);
@@ -56,13 +56,18 @@ namespace BuildingInspection
             DateTime date = calendar.SelectedDate;
 
             DateTime time = DateTime.Now;
-            var n = DateTime.ParseExact(date.ToShortDateString() + " 08:00:00", "dd/MM/yyyy HH:mm:ss", System.Globalization.CultureInfo.InvariantCulture);
+            var t = DateTime.Parse(date.AddHours(8).ToShortTimeString());
 
-            for (int i = 0; i < 16; i++)
+            for (int i = 0; i < 19; i++)
             {
-                if (time < n)
-                    timeDDL.Items.Add(n.ToString("HH:mm"));
-                n = n.AddMinutes(30);
+                if (date == DateTime.Today)
+                {
+                    if (time < t)
+                        timeDDL.Items.Add(t.ToString("HH:mm"));
+                }
+                else
+                    timeDDL.Items.Add(t.ToString("HH:mm"));
+                t = t.AddMinutes(30);
             }
 
             if (timeDDL.Items.Count == 0)
@@ -83,7 +88,8 @@ namespace BuildingInspection
         private void compareDate(DateTime dateSelected)
         {
             String city = cityDDL.SelectedItem.Text;
-            string url = "http://api.openweathermap.org/data/2.5/forecast/daily?q=" + city + "&units=metric&cnt=7&appid=5cd5cf01773ce92e5663d2b393f7a0f2";
+            string url = "http://api.openweathermap.org/data/2.5/forecast/daily?q=" + city + 
+                "&units=metric&cnt=7&appid=5cd5cf01773ce92e5663d2b393f7a0f2";
             using (WebClient client = new WebClient())
             {
                 string json = client.DownloadString(url);
@@ -143,7 +149,7 @@ namespace BuildingInspection
                 {
                     date.Text = dateSelected.ToString("dd/MM/yyyy");
                     day.Text = dateSelected.DayOfWeek.ToString();
-                    ImageButton1.ImageUrl = "img/002-weather.png";
+                    ImageButton1.ImageUrl = "uploads/weather.png";
                 }
 
             }
