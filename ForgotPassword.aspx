@@ -61,12 +61,13 @@
                             <span class="fas fa-user" style="margin-top:7px"></span>
                             <asp:TextBox ID="userName" class = "form-control form-text" runat="server"></asp:TextBox>
                         </div>
+                        <asp:Label ID="usernameMessage" runat="server" Text=""></asp:Label>
+                        <br />
                         <br />
                         <div class="form-row button-continue">
                             <asp:Button ID="continue" runat="server" class="btn btn-primary centered btn-block" Text="Continue" style="" OnClick="continue_Click"/>
                         </div>
                     </div>
-                    <asp:Label ID="usernameMessage" runat="server" Text=""></asp:Label>
                 </form>
             </div>
         </div>

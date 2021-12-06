@@ -238,7 +238,7 @@
         </tr>
         <tr>
             <td colspan="3" style="text-align:right; padding-right:20px;">
-                <asp:Button ID="nextBtn" runat="server" Text="Next" OnClick="nextBtn_Click" Enabled="false" class="btn btn-primary"/>
+                <asp:Button ID="nextBtn" runat="server" Text="Next" OnClick="nextBtn_Click" class="btn btn-primary"/>
             </td>
         </tr>
     </table>

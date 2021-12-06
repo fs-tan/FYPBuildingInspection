@@ -30,7 +30,7 @@ namespace BuildingInspection
             }
             else
             {
-                Label3.Text = "Password and Confirm password not match.";
+                passwordMessage.Text = "Password and Confirm password not match.";
             }
         }
     }

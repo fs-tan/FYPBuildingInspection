@@ -22,11 +22,11 @@ namespace BuildingInspection
                 {
                     var taskLatValue = Convert.ToDouble(lat.Text);
                     var taskLngValue = Convert.ToDouble(lng.Text);
-                    if (taskLatValue <= 90 || taskLatValue >= -90)
+                    if (taskLatValue <= 90 && taskLatValue >= -90)
                     {
                         latMessage.Text = "";
 
-                        if (taskLngValue <= 180 || taskLngValue >= -180)
+                        if (taskLngValue <= 180 && taskLngValue >= -180)
                         {
                             lngMessage.Text = "";
 

@@ -66,7 +66,9 @@
                             <span class="fas fa-lock" style="margin-top:5px"></span>
                             <asp:TextBox ID="cPassword" type="password" class="form-control form-text" runat="server" required></asp:TextBox>
                         </div>
+                        
                         <asp:Label ID="passwordMessage" runat="server" Text=""></asp:Label>
+                        <br />
                         <br />
                         <div class="form-row button-continue">
                             <asp:Button ID="continue" runat="server" class="btn btn-primary centered btn-block" Text="Continue" style="" OnClick="continue_Click"/>

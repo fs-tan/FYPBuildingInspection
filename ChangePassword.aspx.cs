@@ -18,16 +18,16 @@ namespace BuildingInspection
 
         protected void continue_Click(object sender, EventArgs e)
         {
-            string username = Convert.ToString(Session["username"]);
+            var user = db.Users.SingleOrDefault(x => x.userID == int.Parse(Session["userID"].ToString()));
+
             string pass = Password.Text;
             string conpass = cPassword.Text;
             if (pass == conpass)
             {
-                var result = db.Users.Where(user => user.userName == username).FirstOrDefault();
-                result.userPassword = FormsAuthentication.HashPasswordForStoringInConfigFile(pass, "SHA1");
+                user.userPassword = FormsAuthentication.HashPasswordForStoringInConfigFile(pass, "SHA1");
                 db.SubmitChanges();
                 Response.Write("<script language='javascript'>window.alert('Congratulations. You have updated your password.')" +
-                    ";window.location='Login.aspx';</script>");
+                    ";window.location='Profile.aspx';</script>");
             }
             else
             {

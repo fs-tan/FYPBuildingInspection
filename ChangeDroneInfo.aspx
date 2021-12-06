@@ -1,6 +1,19 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ChangeDroneInfo.aspx.cs" Inherits="BuildingInspection.ChangeDroneInfo" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div style="margin-top:10%; width:100%; max-width:400px; position:fixed; left:40%">
+    <style>
+        #myVideo {
+          position:fixed;
+          width:100%;
+          height:100%;
+          left:0;
+          top:0;
+        }
+    </style>
+    <video autoplay muted loop id="myVideo">
+        <source src="Content/background.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div style="margin-top:10%; width:100%; max-width:400px; position:fixed; left:40%" class="login">
         <h2 style="text-align:center">Change Drone Info</h2>
         <h4 style="text-align:center">Enter Your New Drone Info</h4>
 
@@ -19,6 +32,7 @@
                 <asp:TextBox ID="currentLng" class="form-control form-text" runat="server"></asp:TextBox>
             </div>
             <asp:Label ID="droneNameMessage" runat="server" Text=""></asp:Label>
+            <br />
             <br />
             <div class="form-row button-continue">
                 <asp:Button ID="continue" runat="server" class="btn btn-primary centered btn-block" Text="Continue" style="" OnClick="continue_Click"/>

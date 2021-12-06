@@ -13,7 +13,7 @@
         <source src="Content/background.mp4" type="video/mp4">
         Your browser does not support HTML5 video.
     </video>
-    <div style="margin-top:10%; width:100%; max-width:400px;  position:fixed; left:40%"">
+    <div style="margin-top:5%; width:100%; max-width:400px;  position:fixed; left:40%" class="login">
         <h2 style="text-align:center">Add New Drone</h2>
         <br />
         <h4 style="text-align:center">Enter Your New Drone Info</h4>

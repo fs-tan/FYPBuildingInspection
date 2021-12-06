@@ -13,7 +13,7 @@
                 <ItemTemplate>
                     <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit" OnClick="Edit_OnClick"  CommandArgument='<%#Eval("scheduleID")%>'></asp:LinkButton>
                     &nbsp;<asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="False" CommandName="Select" Text="Select" OnClick="Select_OnClick" CommandArgument='<%#Eval("scheduleID") %>'></asp:LinkButton>
-                    &nbsp;<asp:LinkButton ID="LinkButton3" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete" OnClientClick="return confirm('Are you sure you want to delete?'); "></asp:LinkButton>
+                    &nbsp;<asp:LinkButton ID="LinkButton3" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete" OnClientClick="return confirm('Are you sure you want to delete?'); " OnClick="Delete_OnClick" CommandArgument='<%#Eval("scheduleID") %>' ></asp:LinkButton>
                 </ItemTemplate>
             </asp:TemplateField>
             <asp:BoundField DataField="scheduleID" HeaderText="Schedule ID" InsertVisible="False" ReadOnly="True" SortExpression="scheduleID" />
@@ -33,7 +33,7 @@
         <SortedDescendingCellStyle BackColor="#E5E5E5" />
         <SortedDescendingHeaderStyle BackColor="#242121" />
     </asp:GridView>
-    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [FlightSchedule]" DeleteCommand="DELETE FROM [FlightSchedule] WHERE [scheduleID] = @scheduleID" InsertCommand="INSERT INTO [FlightSchedule] ([scheduleName], [status], [flightInfoID], [resultID], [userID], [droneID]) VALUES (@scheduleName, @status, @flightInfoID, @resultID, @userID, @droneID)" UpdateCommand="UPDATE [FlightSchedule] SET [scheduleName] = @scheduleName, [status] = @status, [flightInfoID] = @flightInfoID, [resultID] = @resultID, [userID] = @userID, [droneID] = @droneID WHERE [scheduleID] = @scheduleID">
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [FlightSchedule] WHERE ([userID] = @userID)" DeleteCommand="DELETE FROM [FlightSchedule] WHERE [scheduleID] = @scheduleID" InsertCommand="INSERT INTO [FlightSchedule] ([scheduleName], [status], [flightInfoID], [resultID], [userID], [droneID]) VALUES (@scheduleName, @status, @flightInfoID, @resultID, @userID, @droneID)" UpdateCommand="UPDATE [FlightSchedule] SET [scheduleName] = @scheduleName, [status] = @status, [flightInfoID] = @flightInfoID, [resultID] = @resultID, [userID] = @userID, [droneID] = @droneID WHERE [scheduleID] = @scheduleID">
         <DeleteParameters>
             <asp:Parameter Name="scheduleID" Type="Int32" />
         </DeleteParameters>
@@ -45,6 +45,9 @@
             <asp:Parameter Name="userID" Type="Int32" />
             <asp:Parameter Name="droneID" Type="Int32" />
         </InsertParameters>
+        <SelectParameters>
+            <asp:SessionParameter Name="userID" SessionField="userID" Type="Int32" />
+        </SelectParameters>
         <UpdateParameters>
             <asp:Parameter Name="scheduleName" Type="String" />
             <asp:Parameter Name="status" Type="String" />

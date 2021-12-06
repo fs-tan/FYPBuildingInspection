@@ -29,11 +29,19 @@ namespace BuildingInspection
         {
             var user = db.Users.SingleOrDefault(x => x.userID == int.Parse(Session["userID"].ToString()));
             var droneID = db.DroneInfos.SingleOrDefault(x => x.droneID == user.droneID);
-            droneID.droneName = droneName.Text;
-            droneID.latitude = currentLat.Text;
-            droneID.longitude = currentLng.Text;
-            db.SubmitChanges();
-            Response.Write("<script language='javascript'>window.alert('Congratulations. You have updated your drone info.');;window.location='DroneInfo.aspx';</script>");
+            DroneInfo d = db.DroneInfos.SingleOrDefault(x => x.droneName == droneName.Text);
+            if (d == null) //if found, display error message
+            {
+                droneID.droneName = droneName.Text;
+                droneID.latitude = currentLat.Text;
+                droneID.longitude = currentLng.Text;
+                db.SubmitChanges();
+                Response.Write("<script language='javascript'>window.alert('Congratulations. You have updated your drone info.');;window.location='DroneInfo.aspx';</script>");
+            }
+            else
+            {
+                droneNameMessage.Text = ("Drone Name Existed !");
+            }
         }
     }
 }

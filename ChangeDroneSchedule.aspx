@@ -13,7 +13,7 @@
         <source src="Content/background.mp4" type="video/mp4">
         Your browser does not support HTML5 video.
     </video>
-    <div style="margin-top:0%;" class="login">
+    <div style="margin-top:2%;" class="login">
         <strong>Modify Drone Schedule</strong>
         <span>Enter New Drone Schedule Info</span>
         <div class="form">
